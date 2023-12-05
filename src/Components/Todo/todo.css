@@ -10,9 +10,11 @@
   font-size: 35px;
   width: 700px;
   height: 80px;
-  padding: 16px 16px 1px 60px;
+  padding: 16px 16px 16px 60px;
+  margin: 15px 0;
   border: none;
   background: #fff;
+  border-radius: 30px;
   box-shadow: 0px -5px 5px -6px rgba(34, 60, 80, 0.6) inset;
 }
 .todoInput:focus {
@@ -88,4 +90,17 @@
 }
 .newItem:hover .removeTodo {
   display: block;
+}
+.todo-types {
+  padding: 3px 10px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.todo-types:hover {
+  border: 1px solid black;
+}
+.todo-types:active {
+  opacity: 0.5;
 }
