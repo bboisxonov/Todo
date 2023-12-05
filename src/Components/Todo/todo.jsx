@@ -73,9 +73,9 @@ function Todo() {
                 }
             </ul>
 
-            <button onClick={() => setTodoLocale("all")}>all</button>
-            <button onClick={() => setTodoLocale("completed")}>completed</button>
-            <button onClick={() => setTodoLocale("uncompleted")}>uncompleted</button>
+            <button className='todo-types' onClick={() => setTodoLocale("all")}>all</button>
+            <button className='todo-types' onClick={() => setTodoLocale("completed")}>completed</button>
+            <button className='todo-types' onClick={() => setTodoLocale("uncompleted")}>uncompleted</button>
         </main>
     )
 }
